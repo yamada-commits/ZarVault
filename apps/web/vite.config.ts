@@ -97,4 +97,7 @@ export default defineConfig({
       },
     },
   },
+  ssr: {
+    noExternal: ['react-idle-timer'],
+  },
 });

@@ -2,7 +2,7 @@
 
 import { useState, useCallback, useEffect } from "react";
 import useUpload from "@/utils/useUpload";
-import { useIdleTimer } from 'react-idle-timer/dist/hooks'
+import { useIdleTimer } from 'react-idle-timer'
 
 export default function AdminPage() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
